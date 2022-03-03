@@ -20,3 +20,25 @@
 2022-03-03 01:16:12,221 INFO spawned: 'php-fpm' with pid 9
 2022-03-03 01:16:13,102 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
 2022-03-03 01:16:13,258 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-03 01:22:39,698 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-03-03 01:22:39,713 INFO supervisord started with pid 1
+2022-03-03 01:22:39,905 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-03-03 01:22:39,911 INFO supervisord started with pid 1
+2022-03-03 01:22:40,716 INFO spawned: 'nginx' with pid 7
+2022-03-03 01:22:40,914 INFO spawned: 'php-fpm' with pid 7
+2022-03-03 01:22:41,718 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-03 01:22:41,952 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-03 01:25:08,720 WARN received SIGQUIT indicating exit request
+2022-03-03 01:25:08,737 INFO waiting for php-fpm to die
+2022-03-03 01:25:08,754 INFO stopped: php-fpm (exit status 0)
+2022-03-03 01:25:08,843 WARN received SIGQUIT indicating exit request
+2022-03-03 01:25:08,844 INFO waiting for nginx to die
+2022-03-03 01:25:08,860 INFO stopped: nginx (exit status 0)
+2022-03-03 01:49:32,134 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-03-03 01:49:32,141 INFO supervisord started with pid 1
+2022-03-03 01:49:32,431 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-03-03 01:49:32,440 INFO supervisord started with pid 1
+2022-03-03 01:49:33,144 INFO spawned: 'php-fpm' with pid 7
+2022-03-03 01:49:33,444 INFO spawned: 'nginx' with pid 9
+2022-03-03 01:49:34,240 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-03 01:49:34,446 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
