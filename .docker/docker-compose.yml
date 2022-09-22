@@ -1,17 +1,16 @@
 version: "3.3"
 
 services:
-  mariadb:
-    image: mariadb:10.4
+  postgres:
+    image: postgres:14.5-bullseye
     ports:
-      - "3306:3306"
+      - "5432:5432"
     volumes:
-      - ./mariadb/charset.cnf:/etc/mysql/conf.d/charset.cnf
-      - ./mariadb/datamysql:/var/lib/mysql
+      - ./postgres/data:/var/lib/postgresql/data
     networks:
       - apscreativas-laravel-devkit
-    domainname: mariadb
-    hostname: mariadb
+    domainname: postgresql
+    hostname: postgresql
     env_file:
       - ./.env
     restart: on-failure

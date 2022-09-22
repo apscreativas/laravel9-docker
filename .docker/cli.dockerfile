@@ -14,6 +14,7 @@ RUN apk --update add wget \
     imagemagick-dev \
     pcre-dev \
     libtool \
+    libpq-dev \
     make \
     autoconf \
     g++ \
@@ -21,7 +22,7 @@ RUN apk --update add wget \
     libgsasl-dev
 
 # php extensions
-RUN docker-php-ext-install mysqli pdo pdo_mysql xml
+RUN docker-php-ext-install pdo pdo_pgsql xml
 RUN pecl channel-update pecl.php.net \
     && pecl install memcached \
     && pecl install imagick \
