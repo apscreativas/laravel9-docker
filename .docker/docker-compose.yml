@@ -29,6 +29,7 @@ services:
       - apscreativas-laravel-devkit
     env_file:
       - ./.env
+    user : 1000:1000
   app:
     build:
       context: ./
@@ -44,6 +45,7 @@ services:
       - apscreativas-laravel-devkit
     env_file:
       - ./.env
+    user : 1000:1000
   web:
     build:
       context: ./

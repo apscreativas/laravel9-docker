@@ -27,3 +27,30 @@
 2022-09-22 15:55:12,014 INFO supervisord started with pid 1
 2022-09-22 15:55:13,024 INFO spawned: 'php-fpm' with pid 7
 2022-09-22 15:55:14,085 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-09-26 15:47:30,856 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-09-26 15:47:30,862 INFO supervisord started with pid 1
+2022-09-26 15:47:31,588 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-09-26 15:47:31,594 INFO supervisord started with pid 1
+2022-09-26 15:47:31,865 INFO spawned: 'php-fpm' with pid 7
+2022-09-26 15:47:32,605 INFO spawned: 'nginx' with pid 7
+2022-09-26 15:47:32,983 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-09-26 15:47:33,608 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-09-26 15:52:18,398 WARN received SIGQUIT indicating exit request
+2022-09-26 15:52:18,399 INFO waiting for php-fpm to die
+2022-09-26 15:52:18,418 INFO stopped: php-fpm (exit status 0)
+2022-09-26 15:52:18,945 WARN received SIGQUIT indicating exit request
+2022-09-26 15:52:18,945 INFO waiting for nginx to die
+2022-09-26 15:52:19,051 INFO stopped: nginx (exit status 0)
+2022-09-26 15:52:38,479 INFO supervisord started with pid 1
+2022-09-26 15:52:38,500 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-09-26 15:52:38,502 INFO supervisord started with pid 1
+2022-09-26 15:52:39,485 INFO spawned: 'php-fpm' with pid 7
+2022-09-26 15:52:39,506 INFO spawned: 'nginx' with pid 7
+2022-09-26 15:52:40,508 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-09-26 15:52:40,536 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-09-26 15:57:44,566 WARN received SIGQUIT indicating exit request
+2022-09-26 15:57:44,566 WARN received SIGQUIT indicating exit request
+2022-09-26 15:57:44,567 INFO waiting for php-fpm to die
+2022-09-26 15:57:44,567 INFO waiting for nginx to die
+2022-09-26 15:57:44,583 INFO stopped: php-fpm (exit status 0)
+2022-09-26 15:57:44,702 INFO stopped: nginx (exit status 0)
